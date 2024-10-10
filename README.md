@@ -13,7 +13,7 @@ This project is an ETL (Extract, Transform, Load) pipeline that processes a card
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/yourusername/cardiovascular-health-etl.git
+git clone https://github.com/yogitakelvekar/EdgeHealth.git
 ```
 
 ## 2. Install Dependencies
@@ -49,13 +49,12 @@ cardiovascular-health-etl/
 │
 ├── main.py                                 # Main script that runs the ETL pipeline
 ├── requirements.txt                        # File listing the required dependencies
-├── README.md                               # This file
-└── tests/                                  # Optional folder for test scripts (if applicable)
+├── README.md                               # This file            
 ```
 
 ## How to Run
 
-Make sure the dataset is placed in the `data/` folder as `Cardiovascular_health_indicators_2021.xlsx`.
+Make sure the dataset is placed in the `data/` folder as `Cardiovascular_health_indicators_2021_Technical_Exercise_ (2) (1)`.
 
 Run the pipeline by executing the following command in the terminal:
 
@@ -71,9 +70,9 @@ Once the script completes, the chart will be saved in the output/ folder as top_
 - The dataset is loaded from an Excel file using the `openpyxl` engine.
 
 ### Data Transformation
-- Total mortalities from heart disease and stroke are calculated.
-- Mortality rates are then computed by dividing the total mortalities by the population of the CCG.
+- calculated Total mortalities from heart disease and stroke .
+- computed Mortality rates by dividing the total mortalities by the population of the CCG.(Assumed population columns)
 - The top 5 CCGs with the highest mortality rates are identified.
 
 ### Data Visualization
-- A bar chart is created using Seaborn to display the top 5 CCGs and their mortality rates.
+- A bar chart is created using Seaborn to display top 5 CCGs and their mortality rates.
