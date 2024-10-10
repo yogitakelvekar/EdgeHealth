@@ -4,18 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="af0ee7f9-53f5-4032-8bef-258bbebd9b0b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/EdgeHealth_.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/etl/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/etl/data_extractor.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/etl/data_transformer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/etl/data_visualizer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+    <list default="true" id="af0ee7f9-53f5-4032-8bef-258bbebd9b0b" name="Changes" comment="Remaning file added">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +34,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Python.data_transformer.executor": "Run",
     "Python.data_visualizer.executor": "Run",
     "Python.main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -72,15 +63,38 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728561257774</updated>
-      <workItem from="1728561268794" duration="1632000" />
+      <workItem from="1728561268794" duration="4424000" />
     </task>
+    <task id="LOCAL-00001" summary="Task created">
+      <option name="closed" value="true" />
+      <created>1728565152997</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1728565152997</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Remaning file added">
+      <option name="closed" value="true" />
+      <created>1728565284444</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1728565284444</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Task created" />
+    <MESSAGE value="Remaning file added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Remaning file added" />
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/EdgeHealth_$main.coverage" NAME="main Coverage Results" MODIFIED="1728562763353" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/EdgeHealth_$data_transformer.coverage" NAME="data_transformer Coverage Results" MODIFIED="1728563006348" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/etl" />
+    <SUITE FILE_PATH="coverage/EdgeHealth_$main.coverage" NAME="main Coverage Results" MODIFIED="1728564494768" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/EdgeHealth_$data_visualizer.coverage" NAME="data_visualizer Coverage Results" MODIFIED="1728562658744" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/etl" />
   </component>
 </project>
